@@ -6,7 +6,7 @@
   text-align: center;
   p {
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 760;
   }
 }
@@ -16,7 +16,7 @@
   position: relative;
 
   border-radius: 1em 1em 0 0;
-  height: 10rem;
+  height: 15rem;
   width: auto;
   margin: 1em;
   background: white;
@@ -28,6 +28,7 @@
   }
   img{
       padding: 1em;
+      height:10em;
   }
 }
 .card-1:before,
@@ -56,7 +57,7 @@
   p {
     text-align: center;
     color: #52514e;
-    font-size: 0.75em;
+    font-size: 1em;
     font-weight: 500;
   }
   h3{  

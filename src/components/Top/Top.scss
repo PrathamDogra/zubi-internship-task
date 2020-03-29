@@ -19,23 +19,24 @@ $main-color: #3a3361;
   cursor: pointer;
   p {
     color: $main-color;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 760;
   }
   #greyText {
-    font-size: 0.75em;
+    font-size: 1em;
     color: grey;
   }
   .box {
     position: absolute;
     transform: translate(-50%, -50%);
     padding-top: 3em;
-    padding-left: 18em;
+    // padding-left: 25em;
+    left:25%;
     flex: 1;
     input {
       position: relative;
       display: inline-block;
-      font-size: 0.75em;
+      font-size: 1em;
       box-sizing: border-box;
       transition: 0.5s;
     }
