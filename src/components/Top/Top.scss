@@ -10,8 +10,6 @@ $main-color: #3a3361;
   padding: 1em 5em 1em 5em;
   position: relative;
   top: 10%;
-
-  
 }
 .flex-1 {
   flex: 1;
@@ -31,7 +29,7 @@ $main-color: #3a3361;
     transform: translate(-50%, -50%);
     padding-top: 3em;
     padding-left: 24em;
-    
+
     flex: 1;
     input {
       position: relative;
@@ -69,5 +67,86 @@ $main-color: #3a3361;
   flex: 1;
   justify-content: center;
 }
+@media screen and (max-width: 800px) {
+  .flex-2 {
+    display: none;
+  }
+   .flex-1 .box {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 2em;
+    padding-left: 20em;
+    flex: 1;
+    input {
+      position: relative;
+      display: inline-block;
+      font-size: 1em;
+      box-sizing: border-box;
+      transition: 0.5s;
+    }
+    input[type="email"] {
+      background: #ffffff;
+      width: 20em;
+      height: 3em;
+      outline: none;
+      position: relative;
+      border: 1px solid grey;
+      border-radius: 7px 0 0 7px;
+      padding-left: 1em;
+    }
+    input[type="submit"] {
+      border-radius: 0px 7px 7px 0px;
+      border: 2px solid #3a3361;
+      height: 3em;
+      outline: none;
+      background-color: $main-color;
+      color: white;
+      border: 1px solid $main-color;
+      position: relative;
+      top: 2%;
+      cursor: pointer;
+    }
+  }
+}
 
-
+@media screen and (max-width: 600px) {
+  .flex-2 {
+    display: none;
+  }
+   .flex-1 .box {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 5em;
+    padding-left: 20em;
+    flex: 1;
+    input {
+      position: relative;
+      display: inline-block;
+      font-size: 1em;
+      box-sizing: border-box;
+      transition: 0.5s;
+    }
+    input[type="email"] {
+      background: #ffffff;
+      width: 20em;
+      height: 3em;
+      outline: none;
+      position: relative;
+      border: 1px solid grey;
+      border-radius: 7px 0 0 7px;
+      padding-left: 1em;
+    }
+    input[type="submit"] {
+      border-radius: 0px 7px 7px 0px;
+      border: 2px solid #3a3361;
+      height: 3em;
+      outline: none;
+      background-color: $main-color;
+      color: white;
+      border: 1px solid $main-color;
+      position: relative;
+      top: 2%;
+      cursor: pointer;
+    }
+  }
+}
