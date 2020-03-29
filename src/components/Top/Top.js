@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import "./Top.scss";
 import Fade from "react-reveal/Fade";
 import SVG from "../../assets/intro-img.svg";
+import Logo from "../../assets/Logo.png"
 class Top extends Component {
   render() {
     return (
       <div className="Top">
         <div className="flex-container-1">
           <div className="flex-1">
+            
             <Fade left>
               <div>
                 <p>
