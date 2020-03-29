@@ -9,33 +9,36 @@ export default function Cards() {
       </div>
 
       <div className="container">
-        <Fade left >
+        <Fade left>
           <div className="card">
             <div className="card-header">Amazing Prizes</div>
             <div className="card-body">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              ever since the 1500s.Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.
             </div>
           </div>
         </Fade>
-        <Fade center >
+        <Fade center>
           <div className="card">
             <div className="card-header">Amazing Prizes</div>
             <div className="card-body">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              ever since the 1500s.Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.
             </div>
           </div>
         </Fade>
-        <Fade right >
+        <Fade right>
           <div className="card">
             <div className="card-header">Amazing Prizes</div>
             <div className="card-body">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              ever since the 1500s.Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.
             </div>
           </div>
         </Fade>
