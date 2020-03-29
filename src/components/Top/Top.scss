@@ -1,0 +1,72 @@
+$main-color: #3a3361;
+.Top {
+  justify-content: flex-start;
+  align-self: center;
+  height: 100vh;
+}
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 5em 1em 5em;
+  position: relative;
+  top: 10%;
+
+  
+}
+.flex-1 {
+  flex: 1;
+  justify-content: center;
+  cursor: pointer;
+  p {
+    color: $main-color;
+    font-size: 2rem;
+    font-weight: 760;
+  }
+  #greyText {
+    font-size: 0.75em;
+    color: grey;
+  }
+  .box {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 3em;
+    padding-left: 18em;
+    flex: 1;
+    input {
+      position: relative;
+      display: inline-block;
+      font-size: 0.75em;
+      box-sizing: border-box;
+      transition: 0.5s;
+    }
+    input[type="email"] {
+      background: #ffffff;
+      width: 20em;
+      height: 3em;
+      outline: none;
+      position: relative;
+      border: 1px solid grey;
+      border-radius: 7px 0 0 7px;
+      padding-left: 1em;
+    }
+    input[type="submit"] {
+      border-radius: 0px 7px 7px 0px;
+      border: 2px solid #3a3361;
+      height: 3em;
+      outline: none;
+      background-color: $main-color;
+      color: white;
+      border: 1px solid $main-color;
+      position: relative;
+      top: 2%;
+      cursor: pointer;
+    }
+  }
+}
+
+.flex-2 {
+  flex: 1;
+  justify-content: center;
+}
+
+
